@@ -6,14 +6,14 @@
 title: fanfan
 subtitle: 'No fan, no fun'
 description: 'in the process of learning how to create a website'
-keywords: "个人"
+keywords: "个人, haha"
 author: fanfan
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://github.com/Fancraft/fanfan.git
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -31,7 +31,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -69,12 +69,6 @@ default_category: uncategorized
 category_map:
 tag_map:
 
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
-
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
@@ -102,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -110,3 +104,9 @@ deploy:
   type: 'git'
   repo: git@github.com:Fancraft/fanfan.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
